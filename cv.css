@@ -94,23 +94,6 @@ a.button:hover {
   width: 50%;
 }
 
-/* Media query for screens with a max width of 600 pixels */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 100%;
-  }
-
-  .bio {
-    padding-right: 0px;
-  }
-
-  .cv {
-    padding-right: 100px;
-    background-color: aqua;
-  }
-}
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -157,4 +140,20 @@ h2 {
 
 p {
   color: rgb(14, 25, 34);
+}
+
+/* Media query for screens with a max width of 600 pixels */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+
+  .bio {
+    padding-right: 0px;
+  }
+
+  .cv {
+    padding-right: 100px;
+    background-color: aqua;
+  }
 }
