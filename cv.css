@@ -95,10 +95,9 @@ a.button:hover {
 }
 
 /* Media query for screens with a max width of 768 pixels */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .column {
-      width: 100%; /* Make column take full width */
-      float: none; /* Disable floating so they stack on top of each other */
+    width: 100%;
   }
 }
 
