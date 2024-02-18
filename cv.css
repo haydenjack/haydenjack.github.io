@@ -103,6 +103,10 @@ a.button:hover {
   .bio {
     padding-right: 0px;
   }
+
+  .cv {
+    padding-right: 100px;
+  }
 }
 
 
