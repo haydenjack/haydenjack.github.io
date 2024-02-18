@@ -94,12 +94,13 @@ a.button:hover {
   width: 50%;
 }
 
-/* Media query for screens with a max width of 768 pixels */
-@media screen and (max-width: 600px) {
+/* Media query for screens with a max width of 600 pixels */
+@media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
 }
+
 
 /* Clear floats after the columns */
 .row:after {
