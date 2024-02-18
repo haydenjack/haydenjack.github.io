@@ -99,6 +99,10 @@ a.button:hover {
   .column {
     width: 100%;
   }
+
+  .bio {
+    padding-right: none;
+  }
 }
 
 
