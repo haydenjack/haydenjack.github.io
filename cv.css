@@ -101,7 +101,7 @@ a.button:hover {
   }
 
   .bio {
-    padding-right: none;
+    padding-right: 0px;
   }
 }
 
