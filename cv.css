@@ -16,7 +16,7 @@ body {
     border-top-left-radius: 20px;
     text-align: left;
     outline: none;
-    font-size: 17px;
+    font-size: 1vw;
     font-weight: bolder;
   }
   
@@ -27,7 +27,7 @@ body {
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
-    padding: 0 18px;
+    padding: 0 2vw;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
@@ -72,7 +72,7 @@ a.button:hover {
 .sora-firstname {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
-  font-size: 100px;
+  font-size: 9vw;
   font-weight: 800;
   font-style: normal;
   line-height: 20px;
@@ -82,7 +82,7 @@ a.button:hover {
 .sora-lastname {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
-  font-size: 100px;
+  font-size: 9vw;
   font-weight: 800;
   font-style: normal;
   line-height: 20px;
@@ -109,6 +109,7 @@ a.button:hover {
 .name {
   padding-left: 120px;
   padding-top: 100px;
+  width: fit-content;
 }
 
 .sidenav {
@@ -132,6 +133,7 @@ a.button:hover {
   background-color: rgb(30, 81, 123);
   padding: 50px;
   border-radius: 20px;
+  width: fit-content;
 }
 
 h2 {
@@ -148,10 +150,20 @@ p {
     width: 100%;
   }
 
-  .bio {padding-right: 0px;}
+  .bio {
+    padding-right: 0px;
+    width: fit-content;
+    font-size: 2vw;
+  }
 
   .cv {
-    margin-left: 100px;}
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+  }
 
-  .name {padding-top: 10px;}
+  .name {
+    padding-top: 10px;
+    width: fit-content;
+  }
 }
