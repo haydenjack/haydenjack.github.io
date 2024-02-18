@@ -16,7 +16,7 @@ body {
     border-top-left-radius: 20px;
     text-align: left;
     outline: none;
-    font-size: 1vw;
+    font-size: 18px;
     font-weight: bolder;
   }
   
@@ -160,10 +160,16 @@ p {
     margin-left: 100px;
     margin-top: 20px;
     padding: 20px;
+    width: fit-content;
+    font-size: 2vw;
   }
 
   .name {
     padding-top: 10px;
     width: fit-content;
+  }
+
+  .collapsible {
+    font-size: 2vw;
   }
 }
