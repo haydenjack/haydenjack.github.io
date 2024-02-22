@@ -33,7 +33,7 @@ body {
     background-color: #f1f1f1;
   }
 
-  .education {
+  .white-container {
     outline: none;
     padding: 20px;
     border-radius: 20px;
@@ -128,6 +128,7 @@ a.button:hover {
 
 .bio {
   padding-right: 100px;
+  color: rgb(14, 25, 34)
 }
 
 .cv {
@@ -139,6 +140,10 @@ a.button:hover {
 
 h2 {
   color: rgb(200, 230, 255);
+}
+
+h3 {
+  color: rgb(35, 63, 84);
 }
 
 p {

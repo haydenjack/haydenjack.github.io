@@ -1,0 +1,17 @@
+body {
+    margin: 1cm;
+    background-color:steelblue;
+    font-family: 'Sora', serif;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
