@@ -38,6 +38,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     background-color: #eee;
+    padding-top: 5px;
   }
 
   a.account-link {
